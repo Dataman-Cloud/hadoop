@@ -1,2 +1,2 @@
-# hadoop-base
-Docker base image for hadoop
+# hadoop
+Docker image for hadoop

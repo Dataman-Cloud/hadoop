@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<configuration>
+  <property>
+    <name>yarn.resourcemanager.hostname</name>
+    <value>${HOST_IP}</value>
+  </property>
+  <property>
+    <name>yarn.resourcemanager.scheduler.class</name>
+    <value>${RM_SCHEDULER}</value>
+  </property>
+  <property>
+    <name>yarn.nodemanager.local-dirs</name>
+    <value>${HADOOP_TMP_DIR}/nm-local-dir</value>
+  </property>
+  <property>
+    <name>yarn.nodemanager.log-dirs</name>
+    <value>${HADOOP_TMP_DIR}/userlogs</value>
+  </property>
+</configuration>

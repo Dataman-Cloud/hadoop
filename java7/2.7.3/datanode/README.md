@@ -5,7 +5,7 @@ hdfs datanode in docker
 ## How to use it
 
 ```bash
-docker run -e HDFS_NAMENODE_RPC_HOST=$NAMENODEHOST -v /data:/var/hdfs/datanode --net=host --name hdfs-dn -d dataman/hdfs-datanode:2.7.1
+docker run -e HDFS_NAMENODE_RPC_HOST=$NAMENODEHOST -v /data:/var/hdfs/datanode --net=host --name hdfs-dn -d 2breakfast/hadoop:2.7.3-dn
 ```
 
 ## Exposed ports
